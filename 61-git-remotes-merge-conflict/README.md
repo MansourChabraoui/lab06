@@ -59,5 +59,12 @@ git log --all --graph
      (funzionalità presente su `feature`)
 6. Si crei un nuovo repository nel proprio github personale
 7. Si aggiunga il nuovo repository creato come **remote** e si elenchino i remote
+
+origin  https://github.com/APICe-at-DISI/OOP-git-merge-conflict-test.git (fetch)
+origin  https://github.com/APICe-at-DISI/OOP-git-merge-conflict-test.git (push)
+remote  https://github.com/MansourChabraoui/lab06-61.git (fetch)
+remote  https://github.com/MansourChabraoui/lab06-61.git (push)
+
+
 8. Si faccia push del branch `master` sul proprio repository
 9. Si setti il branch remoto `master` del nuovo repository come *upstream* per il proprio branch `master` locale
