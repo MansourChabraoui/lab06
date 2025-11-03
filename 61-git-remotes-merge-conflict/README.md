@@ -81,3 +81,8 @@ To https://github.com/MansourChabraoui/lab06-61.git
 
 
 9. Si setti il branch remoto `master` del nuovo repository come *upstream* per il proprio branch `master` locale
+
+git push -u remote remote/master
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/MansourChabraoui/lab06-61.git
+ * [new reference]   remote/master -> remote/master
