@@ -22,6 +22,33 @@ Resolving deltas: 100% (2/2), done.
 
 
 2. Ci si assicuri di avere localmente entrambi i branch remoti
+
+git log --all --graph
+* commit bed943fbdd6ba94e64197448e4754a529d984e88 (origin/feature)
+| Author: Danilo Pianini <danilo.pianini@gmail.com>
+| Date:   Thu Oct 27 17:21:22 2016 +0200
+|
+|     Print author information
+|
+| * commit 8e0f29c12e060f3bdc62540343eff3e473616d61 (HEAD -> master, origin/master, origin/HEAD)
+|/  Author: Danilo Pianini <danilo.pianini@gmail.com>
+|   Date:   Thu Oct 27 17:19:05 2016 +0200
+|
+|       Change HelloWorld to print the number of available processors
+|
+* commit d956df66aeb0829f23b7b3d0d9a1c002c390f87f
+| Author: Danilo Pianini <danilo.pianini@gmail.com>
+| Date:   Thu Oct 27 17:17:43 2016 +0200
+|
+|     Create .gitignore
+|
+* commit 700ee0b669f6cd75384abb9af51ca5c2adefe917
+  Author: Danilo Pianini <danilo.pianini@gmail.com>
+  Date:   Thu Oct 27 17:15:10 2016 +0200
+
+      Create HelloWorld
+
+
 3. Si faccia il merge di `feature` dentro `master`, ossia: si posizioni la `HEAD` su `master`
    e da qui si esegua il merge di `feature`
 4. Si noti che viene generato un **merge conflict**!
