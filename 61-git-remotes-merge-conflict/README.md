@@ -67,4 +67,17 @@ remote  https://github.com/MansourChabraoui/lab06-61.git (push)
 
 
 8. Si faccia push del branch `master` sul proprio repository
+
+git push remote master
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (15/15), 1.57 KiB | 537.00 KiB/s, done.
+Total 15 (delta 4), reused 10 (delta 2), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/MansourChabraoui/lab06-61.git
+ * [new branch]      master -> master
+
+
 9. Si setti il branch remoto `master` del nuovo repository come *upstream* per il proprio branch `master` locale
